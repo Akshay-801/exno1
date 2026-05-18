@@ -49,10 +49,15 @@ Data cleaning is the process of preparing data for analysis by removing or modif
 ### Iris Dataset
 
 ![alt text](./images/image-12.png)
+
 ![](./images/image-13.png)
+
 ![alt text](./images/image-14.png)
+
 ![alt text](./images/image-15.png)
+
 ![alt text](./images/image-16.png)
+
 ![](./images/image-17.png)
 
 Refer : [Colab Notebook](https://colab.research.google.com/drive/1Uf1W4sON8iDqmspoPAirRkxFJc6bCDAN?usp=sharing)
