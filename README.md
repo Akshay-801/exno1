@@ -24,13 +24,11 @@ Data cleaning is the process of preparing data for analysis by removing or modif
 
 ![alt text](./images/image-12.png)
 
-![alt text](./images/image-11.png)
-
 ![alt text](./images/image.png)
 
 ![alt text](./images/image-1.png)
 
-![alt text](image.png)
+![alt text](./images/image-2.png)
 
 ![alt text](./images/image-3.png)
 
