@@ -1,26 +1,50 @@
-# Exno:1
-Data Cleaning Process
+# Exno: 1 Data Cleaning Process
 
-# AIM
-To read the given data and perform data cleaning and save the cleaned data to a file.
+## Aim
 
-# Explanation
-Data cleaning is the process of preparing data for analysis by removing or modifying data that is incorrect ,incompleted , irrelevant , duplicated or improperly formatted. Data cleaning is not simply about erasing data ,but rather finding a way to maximize datasets accuracy without necessarily deleting the information.
+To preprocess the given datasets by inspecting the data, removing missing values, and filtering outliers using z-score and IQR methods.
 
-# Algorithm
-STEP 1: Read the given Data
+## Explanation
 
-STEP 2: Get the information about the data
+Data cleaning is the process of preparing data for analysis by removing or modifying incorrect, incomplete, irrelevant, duplicated, or improperly formatted values. In this notebook, the numeric columns are cleaned separately so that text columns such as labels remain unaffected.
 
-STEP 3: Remove the null values from the data
+## Algorithm
 
-STEP 4: Save the Clean data to the file
+1. Read the dataset.
+2. Inspect the structure using `head()`, `info()`, and `describe()`.
+3. Remove null values with `dropna()`.
+4. Remove outliers using the z-score method on numeric columns.
+5. Remove outliers using the IQR method on numeric columns.
 
-STEP 5: Remove outliers using IQR
+## Coding and Output
 
-STEP 6: Use zscore of to remove outliers
+### Loan Dataset
 
-# Coding and Output
-            <<include your coding and its corressponding output screen shots here>>
-# Result
-          <<include your Result here>>
+![alt text](./images/image-12.png)
+![alt text](./images/image-11.png)
+![alt text](./images/image.png)
+![alt text](./images/image-1.png)
+![alt text](image.png)
+![alt text](./images/image-3.png)
+![alt text](./images/image-4.png)
+![alt text](./images/image-5.png)
+![alt text](./images/image-6.png)
+![alt text](./images/image-7.png)
+![alt text](./images/image-8.png)
+![alt text](./images/image-9.png)
+![alt text](./images/image-10.png)
+
+### Iris Dataset
+
+![alt text](./images/image-12.png)
+![](./images/image-13.png)
+![alt text](./images/image-14.png)
+![alt text](./images/image-15.png)
+![alt text](./images/image-16.png)
+![](./images/image-17.png)
+
+Refer : [Colab Notebook](https://colab.research.google.com/drive/1Uf1W4sON8iDqmspoPAirRkxFJc6bCDAN?usp=sharing)
+
+## Result
+
+The datasets were cleaned successfully by removing missing values and filtering outliers from the numeric features.
